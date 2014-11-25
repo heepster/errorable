@@ -1,7 +1,9 @@
 Errorable
 =========
 
-Adds Active Record error tracking behavior to standard ruby classes.
+Pronounced like 'adorable' :D
+
+This gem adds ActiveRecord-like error tracking to standard ruby classes.  It's super lightweight and requires zero dependencies.  
 
 # Usage
 
