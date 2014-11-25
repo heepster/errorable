@@ -5,6 +5,18 @@ Pronounced like 'adorable' :D
 
 This gem adds ActiveRecord-like error tracking to standard ruby classes.  It's super lightweight and requires zero dependencies.  
 
+# Installation
+
+If you're using Rails/Bundle, include `Errorable` in your Gemfile:
+```
+gem 'errorable'
+```
+
+Otherwise, you can install it from rubygems.org:
+```
+gem install errorable
+```
+
 # Usage
 
 Include the `Errorable` module in your class: 
