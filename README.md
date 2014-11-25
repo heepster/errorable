@@ -14,9 +14,9 @@ end
 ```
 
 Errorable gives you access to these methods: 
-1. `get_errors`
-2. `add_error`
-3. `flush_errors`
+1.  `get_errors`
+2.  `add_error`
+3.  `flush_errors`
 
 
 
