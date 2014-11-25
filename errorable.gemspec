@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'errorable'
-  s.version     = '1.0.0'
+  s.version     = '1.1.0'
   s.date        = '2010-11-25'
   s.summary     = "Adds Active Record error tracking behavior to standard ruby classes."
   s.description = "Adds Active Record error tracking behavior to standard ruby classes."

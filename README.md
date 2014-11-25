@@ -32,6 +32,7 @@ Errorable gives you access to these methods:
 1.  `get_errors`
 2.  `add_error`
 3.  `flush_errors`
+4.  `errors?`
 
 You can now add/retrieve errors:
 
@@ -45,4 +46,5 @@ You can now add/retrieve errors:
 
 `flush_errors` returns the errors and empties out the cache of errors.
 
+`errors?` returns a boolean to tell you if there are errors or not.
 

@@ -17,6 +17,11 @@ module Errorable
     errors
   end
 
+  def errors?
+    initialize_errors
+    !@_errors.empty?
+  end
+
   private
 
   def initialize_errors

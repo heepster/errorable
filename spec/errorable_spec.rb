@@ -20,6 +20,10 @@ describe Errorable do
     expect(@dummy).to respond_to(:flush_errors)
   end
 
+  it "should have a errors? method" do
+    expect(@dummy).to respond_to(:errors?)
+  end
+
   it "should get errors properly" do
     error_1 = "Test error #1"
     error_2 = "Test error #2"
@@ -37,5 +41,18 @@ describe Errorable do
     expect(flushed_errors).to eq([error_1, error_2])
     expect(@dummy.get_errors).to eq([])
   end
+
+  it "should respond to 'errors?' with true" do
+    error_1 = "Test error #1"
+    error_2 = "Test error #2"
+    @dummy.add_error(error_1)
+    @dummy.add_error(error_2)
+    expect(@dummy.errors?).to eq(true)
+  end
+
+  it "should respond to 'errors?' with false" do
+    expect(@dummy.errors?).to eq(false)
+  end
+
 
 end
