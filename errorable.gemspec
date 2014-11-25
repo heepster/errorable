@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'me@khuynh.info'
   s.files       = ['lib/errorable.rb']
   s.license     = 'MIT'
-  s.add_development_dependency "rspec"
+  s.homepage    = 'https://github.com/heepster/errorable'
+  s.add_development_dependency "rspec", '~> 0'
 end
